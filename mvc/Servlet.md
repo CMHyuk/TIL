@@ -103,6 +103,7 @@ public class HelloServlet extends HttpServlet {
 * JSON  
   * JSON 형식으로 파싱할 수 있게 객체 생성(lombok 사용시 getter, setter 애노테이션 사용 가능)  
   * postman으로 raw - JSON으로 데이터 전송  
+  * 단순 텍스트와 같이 사용 가능
   * ```
     private ObjectMapper objectMapper = new ObjectMapper(); (Jackson 라이브러리) 
     objectMapper.readValue(문자, 클래스 타입); : 객체로 변환하는 것도 가능 
