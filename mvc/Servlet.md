@@ -1,4 +1,5 @@
 ## **서블릿** 
+* 서버에서 웹페이지 등을 동적으로 생성하거나 데이터 처리를 수행하기 위해 자바로 작성된 프로그램
 ```
   @WebServlet(name = "helloServlet", urlPatterns = "/hello") 
 public class HelloServlet extends HttpServlet { 
